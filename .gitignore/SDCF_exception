@@ -1,0 +1,430 @@
+2018-08-23T20:40:28.316+05:30 [API/2] [OUT] Created app with guid 9ab988d0-f87f-4e3d-bc38-a74b1c1b0f36
+2018-08-23T20:40:29.305+05:30 [API/0] [OUT] Updated app with guid 9ab988d0-f87f-4e3d-bc38-a74b1c1b0f36 ({"route"=>"de74dfd2-0de3-4731-8395-89685877d143", :verb=>"add", :relation=>"routes", :related_guid=>"de74dfd2-0de3-4731-8395-89685877d143"})
+2018-08-23T20:40:51.525+05:30 [API/1] [OUT] Uploading bits for app with guid 9ab988d0-f87f-4e3d-bc38-a74b1c1b0f36
+2018-08-23T20:41:04.881+05:30 [API/2] [OUT] Creating build for app with guid 9ab988d0-f87f-4e3d-bc38-a74b1c1b0f36
+2018-08-23T20:41:05.237+05:30 [API/2] [OUT] Updated app with guid 9ab988d0-f87f-4e3d-bc38-a74b1c1b0f36 ({"state"=>"STARTED"})
+2018-08-23T20:41:05.273+05:30 [STG/0] [OUT] Downloading java_buildpack_offline...
+2018-08-23T20:41:05.280+05:30 [STG/0] [OUT] Downloaded java_buildpack_offline
+2018-08-23T20:41:05.280+05:30 [STG/0] [OUT] Cell 88f65091-b2d8-4ee4-abc0-183dca3bae92 creating container for instance 4a630bb3-3b66-4aa0-9beb-d0c39c3e4b2c
+2018-08-23T20:41:05.613+05:30 [STG/0] [OUT] Cell 88f65091-b2d8-4ee4-abc0-183dca3bae92 successfully created container for instance 4a630bb3-3b66-4aa0-9beb-d0c39c3e4b2c
+2018-08-23T20:41:05.955+05:30 [STG/0] [OUT] Downloading app package...
+2018-08-23T20:41:08.661+05:30 [STG/0] [OUT] Downloaded app package (74.3M)
+2018-08-23T20:41:10.773+05:30 [STG/0] [OUT] [1m[31m----->[0m[22m [1m[34mJava Buildpack[0m[22m [34mv4.12[0m [34m(offline)[0m | https://github.com/cloudfoundry/java-buildpack.git#5dca820
+2018-08-23T20:41:10.922+05:30 [STG/0] [OUT] [1m[31m----->[0m[22m Downloading [1m[34mJvmkill Agent[0m[22m [34m1.12.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/jvmkill/trusty/x86_64/jvmkill-1.12.0_RELEASE.so [3m[32m(found in cache)[0m[23m
+2018-08-23T20:41:10.925+05:30 [STG/0] [OUT] [1m[31m----->[0m[22m Downloading [1m[34mOpen Jdk JRE[0m[22m [34m1.8.0_172[0m from https://java-buildpack.cloudfoundry.org/openjdk/trusty/x86_64/openjdk-1.8.0_172.tar.gz [3m[32m(found in cache)[0m[23m
+2018-08-23T20:41:11.935+05:30 [STG/0] [OUT] Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre [3m[32m(1.0s)[0m[23m
+2018-08-23T20:41:11.935+05:30 [STG/0] [OUT] JVM DNS caching disabled in lieu of BOSH DNS caching
+2018-08-23T20:41:11.936+05:30 [STG/0] [OUT] [1m[31m----->[0m[22m Downloading [1m[34mOpen JDK Like Memory Calculator[0m[22m [34m3.13.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/memory-calculator/trusty/x86_64/memory-calculator-3.13.0_RELEASE.tar.gz [3m[32m(found in cache)[0m[23m
+2018-08-23T20:41:13.315+05:30 [STG/0] [OUT] Loaded Classes: 28759, Threads: 250
+2018-08-23T20:41:13.339+05:30 [STG/0] [OUT] [1m[31m----->[0m[22m Downloading [1m[34mClient Certificate Mapper[0m[22m [34m1.6.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/client-certificate-mapper/client-certificate-mapper-1.6.0_RELEASE.jar [3m[32m(found in cache)[0m[23m
+2018-08-23T20:41:13.340+05:30 [STG/0] [OUT] [1m[31m----->[0m[22m Downloading [1m[34mContainer Security Provider[0m[22m [34m1.13.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/container-security-provider/container-security-provider-1.13.0_RELEASE.jar [3m[32m(found in cache)[0m[23m
+2018-08-23T20:41:13.341+05:30 [STG/0] [OUT] [1m[31m----->[0m[22m Downloading [1m[34mSpring Auto Reconfiguration[0m[22m [34m2.4.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-2.4.0_RELEASE.jar [3m[32m(found in cache)[0m[23m
+2018-08-23T20:41:26.171+05:30 [STG/0] [OUT] Exit status 0
+2018-08-23T20:41:26.171+05:30 [STG/0] [OUT] Uploading droplet, build artifacts cache...
+2018-08-23T20:41:26.171+05:30 [STG/0] [OUT] Uploading build artifacts cache...
+2018-08-23T20:41:26.172+05:30 [STG/0] [OUT] Uploading droplet...
+2018-08-23T20:41:26.214+05:30 [STG/0] [OUT] Uploaded build artifacts cache (129B)
+2018-08-23T20:41:27.809+05:30 [API/0] [OUT] Creating droplet for app with guid 9ab988d0-f87f-4e3d-bc38-a74b1c1b0f36
+2018-08-23T20:41:32.135+05:30 [STG/0] [OUT] Uploaded droplet (120.1M)
+2018-08-23T20:41:32.135+05:30 [STG/0] [OUT] Uploading complete
+2018-08-23T20:41:32.153+05:30 [STG/0] [OUT] Cell 88f65091-b2d8-4ee4-abc0-183dca3bae92 stopping instance 4a630bb3-3b66-4aa0-9beb-d0c39c3e4b2c
+2018-08-23T20:41:32.153+05:30 [STG/0] [OUT] Cell 88f65091-b2d8-4ee4-abc0-183dca3bae92 destroying container for instance 4a630bb3-3b66-4aa0-9beb-d0c39c3e4b2c
+2018-08-23T20:41:32.549+05:30 [STG/0] [OUT] Cell 88f65091-b2d8-4ee4-abc0-183dca3bae92 successfully destroyed container for instance 4a630bb3-3b66-4aa0-9beb-d0c39c3e4b2c
+2018-08-23T20:41:32.586+05:30 [CELL/0] [OUT] Cell 88f65091-b2d8-4ee4-abc0-183dca3bae92 creating container for instance 3ed7b765-6b25-41d9-7947-88e1
+2018-08-23T20:41:32.926+05:30 [CELL/0] [OUT] Cell 88f65091-b2d8-4ee4-abc0-183dca3bae92 successfully created container for instance 3ed7b765-6b25-41d9-7947-88e1
+2018-08-23T20:41:36.771+05:30 [CELL/0] [OUT] Starting health monitoring of container
+2018-08-23T20:41:36.848+05:30 [APP/PROC/WEB/0] [OUT] JVM Memory Configuration: -Xmx1404565K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=180586K
+2018-08-23T20:41:43.072+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:43.066 INFO 14 --- [ main] pertySourceApplicationContextInitializer : 'cloud' property source added
+2018-08-23T20:41:43.074+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:43.074 INFO 14 --- [ main] nfigurationApplicationContextInitializer : Reconfiguration enabled
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT] ____ ____ _ __
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT] / ___| _ __ _ __(_)_ __ __ _ / ___| | ___ _ _ __| |
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT] \___ \| '_ \| '__| | '_ \ / _` | | | | |/ _ \| | | |/ _` |
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT] ___) | |_) | | | | | | | (_| | | |___| | (_) | |_| | (_| |
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT] |____/| .__/|_| |_|_| |_|\__, | \____|_|\___/ \__,_|\__,_|
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT] ____ |_| _ __|___/ __________
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT] | _ \ __ _| |_ __ _ | ___| | _____ __ \ \ \ \ \ \
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT] | | | |/ _` | __/ _` | | |_ | |/ _ \ \ /\ / / \ \ \ \ \ \
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT] | |_| | (_| | || (_| | | _| | | (_) \ V V / / / / / / /
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT] |____/ \__,_|\__\__,_| |_| |_|\___/ \_/\_/ /_/_/_/_/_/
+2018-08-23T20:41:44.704+05:30 [APP/PROC/WEB/0] [OUT]
+2018-08-23T20:41:44.746+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:44.746 INFO 14 --- [ main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at: http://localhost:8888
+2018-08-23T20:41:44.780+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:44.780 WARN 14 --- [ main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/dataflow-server/cloud": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+2018-08-23T20:41:44.783+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:44.783 INFO 14 --- [ main] pertySourceApplicationContextInitializer : 'cloud' property source added
+2018-08-23T20:41:44.783+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:44.783 INFO 14 --- [ main] nfigurationApplicationContextInitializer : Reconfiguration enabled
+2018-08-23T20:41:44.785+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:44.784 INFO 14 --- [ main] o.s.c.d.s.c.CloudFoundryDataFlowServer : The following profiles are active: cloud
+2018-08-23T20:41:46.252+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:46.252 INFO 14 --- [ main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-23T20:41:46.287+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:46.286 INFO 14 --- [ main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-23T20:41:46.400+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:46.400 INFO 14 --- [ main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-23T20:41:46.768+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:46.768 INFO 14 --- [ main] o.s.cloud.context.scope.GenericScope : BeanFactory id=19ff4a6e-da34-379b-8d8d-d245914213be
+2018-08-23T20:41:46.773+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:46.772 INFO 14 --- [ main] eReconfigurationBeanFactoryPostProcessor : Skipping reconfiguration because cloud services already configured
+2018-08-23T20:41:47.906+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:47.905 INFO 14 --- [ main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-08-23T20:41:47.944+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:47.944 INFO 14 --- [ main] o.apache.catalina.core.StandardService : Starting service [Tomcat]
+2018-08-23T20:41:47.945+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:47.944 INFO 14 --- [ main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-23T20:41:48.076+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:48.076 INFO 14 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2018-08-23T20:41:48.790+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:48.789 INFO 14 --- [ main] o.s.c.s.r.PooledDataSourceCreator : Found HikariCP on the classpath. Using it for DataSource connection pooling.
+2018-08-23T20:41:49.323+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:49.320 INFO 14 --- [ main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:50.487 ERROR 14 --- [ main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Exception during pool initialization.
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] java.sql.SQLInvalidAuthorizationSpecException: Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:173) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:110) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1107) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:502) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.MariaDbConnection.newConnection(MariaDbConnection.java:155) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.Driver.connect(Driver.java:86) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:367) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:196) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111) [spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77) [spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326) [spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366) [spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$8695676c.CGLIB$jpaVendorAdapter$8(<generated>) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$8695676c$$FastClassBySpringCGLIB$$48b9ba46.invoke(<generated>) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$8695676c.jpaVendorAdapter(<generated>) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1181) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1075) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.cloud.dataflow.server.cloudfoundry.CloudFoundryDataFlowServer.main(CloudFoundryDataFlowServer.java:34) [classes/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [app/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [app/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [app/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [app/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] Caused by: java.sql.SQLException: Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] Current charset is UTF-8. If password has been set using other charset, consider using option 'passwordCharacterEncoding'
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:854) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:777) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:451) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.488+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1103) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.489+05:30 [APP/PROC/WEB/0] [OUT] ... 82 common frames omitted
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:50.490 WARN 14 --- [ main] o.s.b.a.orm.jpa.DatabaseLookup : Unable to determine jdbc url from datasource
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLInvalidAuthorizationSpecException: Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339) ~[spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366) ~[spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72) ~[spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$8695676c.CGLIB$jpaVendorAdapter$8(<generated>) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$8695676c$$FastClassBySpringCGLIB$$48b9ba46.invoke(<generated>) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$8695676c.jpaVendorAdapter(<generated>) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1181) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1075) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.cloud.dataflow.server.cloudfoundry.CloudFoundryDataFlowServer.main(CloudFoundryDataFlowServer.java:34) [classes/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [app/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [app/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [app/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [app/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLInvalidAuthorizationSpecException: Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80) ~[spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326) ~[spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] ... 69 common frames omitted
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] Caused by: java.sql.SQLInvalidAuthorizationSpecException: Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:173) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:110) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1107) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:502) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.MariaDbConnection.newConnection(MariaDbConnection.java:155) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.Driver.connect(Driver.java:86) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:367) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:196) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111) ~[spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77) ~[spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] ... 70 common frames omitted
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] Caused by: java.sql.SQLException: Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] Current charset is UTF-8. If password has been set using other charset, consider using option 'passwordCharacterEncoding'
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:854) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:777) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:451) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1103) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:50.491+05:30 [APP/PROC/WEB/0] [OUT] ... 82 common frames omitted
+2018-08-23T20:41:50.512+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:50.512 INFO 14 --- [ main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:51.622 ERROR 14 --- [ main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Exception during pool initialization.
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] java.sql.SQLInvalidAuthorizationSpecException: Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:173) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:110) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1107) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:502) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.MariaDbConnection.newConnection(MariaDbConnection.java:155) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.Driver.connect(Driver.java:86) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:367) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:196) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111) [spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77) [spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:342) [spring-jdbc-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:138) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.getDefaultDdlAuto(JpaProperties.java:226) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.getOrDeduceDdlAuto(JpaProperties.java:214) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.getAdditionalProperties(JpaProperties.java:190) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.access$000(JpaProperties.java:142) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.getHibernateProperties(JpaProperties.java:126) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration.getVendorProperties(HibernateJpaAutoConfiguration.java:104) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:129) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$8695676c.CGLIB$entityManagerFactory$9(<generated>) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$8695676c$$FastClassBySpringCGLIB$$48b9ba46.invoke(<generated>) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$8695676c.entityManagerFactory(<generated>) [spring-boot-autoconfigure-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1181) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1075) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.622+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.cloud.dataflow.server.cloudfoundry.CloudFoundryDataFlowServer.main(CloudFoundryDataFlowServer.java:34) [classes/:na]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [app/:na]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [app/:na]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [app/:na]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [app/:na]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] Caused by: java.sql.SQLException: Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] Current charset is UTF-8. If password has been set using other charset, consider using option 'passwordCharacterEncoding'
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:854) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:777) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:451) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1103) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:51.623+05:30 [APP/PROC/WEB/0] [OUT] ... 58 common frames omitted
+2018-08-23T20:41:51.661+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:51.661 INFO 14 --- [ main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-23T20:41:51.683+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:51.682 INFO 14 --- [ main] o.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+2018-08-23T20:41:51.683+05:30 [APP/PROC/WEB/0] [OUT] name: default
+2018-08-23T20:41:51.683+05:30 [APP/PROC/WEB/0] [OUT] ...]
+2018-08-23T20:41:51.794+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:51.794 INFO 14 --- [ main] org.hibernate.Version : HHH000412: Hibernate Core {5.2.12.Final}
+2018-08-23T20:41:51.796+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:51.796 INFO 14 --- [ main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2018-08-23T20:41:51.857+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:51.857 INFO 14 --- [ main] o.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-23T20:41:52.021+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:52.021 INFO 14 --- [ main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:53.106 ERROR 14 --- [ main] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Exception during pool initialization.
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] java.sql.SQLInvalidAuthorizationSpecException: Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.get(ExceptionMapper.java:173) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.exceptions.ExceptionMapper.getException(ExceptionMapper.java:110) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1107) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.util.Utils.retrieveProxy(Utils.java:502) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.MariaDbConnection.newConnection(MariaDbConnection.java:155) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.Driver.connect(Driver.java:86) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:367) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:196) ~[HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-3.1.0.jar!/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:259) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:233) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:242) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:858) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:885) [hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) [spring-orm-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:360) [spring-orm-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:384) [spring-orm-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:371) [spring-orm-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:336) [spring-orm-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1692) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) [spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.cloud.dataflow.server.cloudfoundry.CloudFoundryDataFlowServer.main(CloudFoundryDataFlowServer.java:34) [classes/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [app/:na]
+2018-08-23T20:41:53.107+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [app/:na]
+2018-08-23T20:41:53.108+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [app/:na]
+2018-08-23T20:41:53.108+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [app/:na]
+2018-08-23T20:41:53.108+05:30 [APP/PROC/WEB/0] [OUT] Caused by: java.sql.SQLException: Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:53.108+05:30 [APP/PROC/WEB/0] [OUT] Current charset is UTF-8. If password has been set using other charset, consider using option 'passwordCharacterEncoding'
+2018-08-23T20:41:53.108+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.authentication(AbstractConnectProtocol.java:854) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:53.108+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.handleConnectionPhases(AbstractConnectProtocol.java:777) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:53.108+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connect(AbstractConnectProtocol.java:451) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:53.108+05:30 [APP/PROC/WEB/0] [OUT] at org.mariadb.jdbc.internal.protocol.AbstractConnectProtocol.connectWithoutProxy(AbstractConnectProtocol.java:1103) ~[mariadb-java-client-2.2.5.jar!/:na]
+2018-08-23T20:41:53.108+05:30 [APP/PROC/WEB/0] [OUT] ... 57 common frames omitted
+2018-08-23T20:41:53.108+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:53.107 WARN 14 --- [ main] o.h.e.j.e.i.JdbcEnvironmentInitiator : HHH000342: Could not obtain connection to query metadata : Access denied for user 'username'@'myappdomain.com' (using password: YES)
+2018-08-23T20:41:53.110+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:53.110 WARN 14 --- [ main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2018-08-23T20:41:53.112+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:53.112 INFO 14 --- [ main] o.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] 2018-08-23 11:11:53.148 ERROR 14 --- [ main] o.s.boot.SpringApplication : Application startup failed
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1634) ~[spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312) ~[spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308) ~[spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080) ~[spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857) ~[spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.14.RELEASE.jar!/:1.5.14.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.cloud.dataflow.server.cloudfoundry.CloudFoundryDataFlowServer.main(CloudFoundryDataFlowServer.java:34) [classes/:na]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_172]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_172]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_172]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_172]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) [app/:na]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) [app/:na]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.Launcher.launch(Launcher.java:50) [app/:na]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51) [app/:na]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:271) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:233) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:242) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:858) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:885) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60) ~[spring-orm-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:360) ~[spring-orm-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:384) ~[spring-orm-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:371) ~[spring-orm-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:336) ~[spring-orm-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1692) ~[spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630) ~[spring-beans-4.3.18.RELEASE.jar!/:4.3.18.RELEASE]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] ... 24 common frames omitted
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:259) ~[hibernate-core-5.2.12.Final.jar!/:5.2.12.Final]
+2018-08-23T20:41:53.148+05:30 [APP/PROC/WEB/0] [OUT] ... 41 common frames omitted
+2018-08-23T20:41:53.512+05:30 [APP/PROC/WEB/0] [OUT] Exit status 1
+2018-08-23T20:41:53.514+05:30 [CELL/SSHD/0] [OUT] Exit status 0
+2018-08-23T20:41:53.615+05:30 [CELL/0] [OUT] Cell 88f65091-b2d8-4ee4-abc0-183dca3bae92 stopping instance 3ed7b765-6b25-41d9-7947-88e1
+2018-08-23T20:41:53.615+05:30 [CELL/0] [OUT] Cell 88f65091-b2d8-4ee4-abc0-183dca3bae92 destroying container for instance 3ed7b765-6b25-41d9-7947-88e1
+2018-08-23T20:41:53.618+05:30 [API/2] [OUT] Process has crashed with type: "web"
+2018-08-23T20:41:53.630+05:30 [API/2] [OUT] App instance exited with guid 9ab988d0-f87f-4e3d-bc38-a74b1c1b0f36 payload: {"instance"=>"3ed7b765-6b25-41d9-7947-88e1", "index"=>0, "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1535037113593888010, "version"=>"507551a5-f5ec-42f0-8f20-21df91e54d83"}
+2018-08-23T20:41:53.657+05:30 [CELL/0] [OUT] Cell d0da9547-54c1-4a6d-97c1-6f38d5ebed42 creating container for instance 8841ea00-39a9-40d4-4cb9-6e70
+2018-08-23T20:41:53.955+05:30 [CELL/0] [OUT] Cell 88f65091-b2d8-4ee4-abc0-183dca3bae92 successfully destroyed container for instance 3ed7b765-6b25-41d9-7947-88e1
+2018-08-23T20:41:53.990+05:30 [CELL/0] [OUT] Cell d0da9547-54c1-4a6d-97c1-6f38d5ebed42 successfully created container for instance 8841ea00-39a9-40d4-4cb9-6e70
+2018-08-23T20:41:57.708+05:30 [CELL/0] [OUT] Starting health monitoring of container
+2018-08-23T20:41:57.788+05:30 [APP/PROC/WEB/0] [OUT] JVM Memory Configuration: -Xmx1404565K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=180586K
+2018-08-23T20:41:59.906+05:30 [API/0] [OUT] Stopping app with guid 9ab988d0-f87f-4e3d-bc38-a74b1c1b0f36
+2018-08-23T20:41:59.964+05:30 [CELL/0] [OUT] Cell d0da9547-54c1-4a6d-97c1-6f38d5ebed42 stopping instance 8841ea00-39a9-40d4-4cb9-6e70
+2018-08-23T20:41:59.968+05:30 [CELL/SSHD/0] [OUT] Exit status 0
+2018-08-23T20:42:00.008+05:30 [APP/PROC/WEB/0] [OUT] Exit status 143
+2018-08-23T20:42:00.052+05:30 [CELL/0] [OUT] Cell d0da9547-54c1-4a6d-97c1-6f38d5ebed42 destroying container for instance 8841ea00-39a9-40d4-4cb9-6e70
+2018-08-23T20:42:00.372+05:30 [CELL/0] [OUT] Cell d0da9547-54c1-4a6d-97c1-6f38d5ebed42 successfully destroyed container for instance 8841ea00-39a9-40d4-4cb9-6e70
